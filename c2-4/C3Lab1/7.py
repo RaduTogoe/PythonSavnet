@@ -1,0 +1,5 @@
+lista = input("Introduceti lista de taskuri: ")
+lista_taskuri = lista.split(",")
+print(lista_taskuri)
+lista1 = list(set(lista_taskuri))
+print(lista1)

@@ -1,0 +1,5 @@
+s = input()
+print("The length is: {}".format(len(s)))
+print(f"The length is: {len(s)}")
+print("The length is: " + str(len(s)))
+print("The length is:", len(s))
